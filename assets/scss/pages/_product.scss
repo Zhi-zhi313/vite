@@ -1,0 +1,71 @@
+:root {
+    --primary-200: #E8FEC5;
+    --primary-300: #C0FA73;
+    --primary-400: #57A203;
+    --primary-100: #F5FEE7;
+    --neutral: #F8F9FA;
+    --neutral-white: #FFFFFF;
+    --neutral-100: #F8F9FA;
+    --neutral-300: #DEE2E6;
+    --neutral-500: #ADB5BD;
+    --neutral-600: #6C757D;
+    --neutral-900: #212529;
+}
+
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* 圖片間距是8px, 所以左有兩側繪panding 4px, 要加回來 */
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+/* 產品圖片在12欄中佔了7欄, 7欄的寬度裡要再用12欄分一半, 所以是6欄寬度 */
+.product-col {
+    padding-left: 4px;
+    padding-right: 4px;
+    width: calc(100%/12 * 6);
+}
+
+@media(max-width:767px) {
+    .product-row {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .product-col-1 {
+        padding-left: 6px;
+        padding-right: 6px;
+        width: calc(100%/4);
+    }
+    .product-col-2 {
+        padding-left: 6px;
+        padding-right: 6px;
+        width: calc(100%/4 *2);
+    }
+    .product-col-3 {
+        padding-left: 6px;
+        padding-right: 6px;
+        width: calc(100%/4 *3);
+    }
+    .product-col-4 {
+        padding-left: 6px;
+        padding-right: 6px;
+        width: 100%;
+    }
+}
+
+.product-color {
+    width: 64px;
+    color: var(--neutral-600);
+    text-align: center;
+}
+
+.product-action .btn {
+    width: 50%;
+}
+
+@media(max-width:767px) {
+    .product-action .btn {
+        width: 80%;
+    }
+}

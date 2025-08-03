@@ -1,0 +1,22 @@
+:root {
+    --neutral-600: #6C757D;
+}
+
+.breadcrumb {
+    display: flex;
+    font-weight: 500;
+}
+
+.breadcrumb-home {
+    color: var(--neutral-600);
+}
+
+@media(max-width:767px) {
+    .breadcrumb +.breadcrumb::before{
+        padding: 0 8px;
+    }
+
+    .breadcrumb.md{
+        font-size: 14px;;
+    }
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>產品列表</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <main class="container py-32 mb-48 py-md-16">
+        <!-- 透過格線排版 -->
+        <div class="row">
+            <div class="col-2 col-md-2"> <!--導覽列占兩欄 -->
+                <nav class="mb-24 mb-md-12">
+                    <ol class="d-flex">
+                        <li class="breadcrumb breadcrumb-home"><a href="#" class="md">首頁</a></li>
+                        <!-- <li class="breadcrumb breadcrumb-home"><a href="#" class="md">女鞋</a></li> -->
+                        <li class="breadcrumb"><a href="#" class="md">所有商品</a></li>
+                    </ol>
+                </nav>
+                <div class="mb-24 py-7 mb-md-12 py-md-95">
+                    <h3 class="h3 h4-md">女鞋</h3>
+                </div>
+
+                <nav class="d-md-none">
+                    <ul>
+                        <li class="mb-16 py-12"><a href="#" class="md active">所有商品</a></li>
+                        <li class="mb-16 py-12"><a href="#" class="md">慢跑鞋</a></li>
+                        <li class="mb-16 py-12"><a href="#" class="md">滑板鞋</a></li>
+                        <li class="mb-16 py-12"><a href="#" class="md">厚底鞋</a></li>
+                        <li class="py-12"><a href="#" class="md">限定/聯名企劃</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- 產品列表佔10欄 -->
+            <div class="col-10 col-md-4">
+                <!-- 在這10欄的寬度在分成12欄來排版 -->
+                <div class="row">
+                    <div class="col-4 col-md-2">
+                        <div class="mb-48">
+                            <a href="product.html">
+                                <img class="mb-12 mb-md-8"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true"
+                                    alt="product01">
+                                <h6 class="mb-4 h6 mb-md-0">PLATFORM 404</h6>
+                                <p class="md">NT$2,600</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="mb-48 mb-md-24">
+                            <a href="product.html">
+                                <img class="mb-12 mb-md-8"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-1.png?raw=true"
+                                    alt="product02">
+                                <h6 class="mb-4 h6">PLATFORM 404</h6>
+                                <p class="md">NT$2,600</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="mb-48 mb-md-24">
+                            <a href="product.html">
+                                <img class="mb-12 mb-md-8"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-2.png?raw=true"
+                                    alt="product03">
+                                <h6 class="mb-4 h6 mb-md-0">PLATFORM 404</h6>
+                                <p class="md">NT$2,600</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="mb-48 mb-md-24">
+                            <a href="product.html">
+                                <img class="mb-12 mb-md-8"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true"
+                                    alt="product04">
+                                <h6 class="mb-4 h6 mb-md-0">PLATFORM 404</h6>
+                                <p class="md">NT$2,600</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="mb-48 mb-md-24">
+                            <a href="product.html">
+                                <img class="mb-12 mb-md-8"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true"
+                                    alt="product05">
+                                <h6 class="mb-4 h6 mb-md-0">PLATFORM 404</h6>
+                                <p class="md">NT$2,600</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="mb-48 mb-md-24">
+                            <a href="product.html">
+                                <img class="mb-12 mb-md-8"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-5.png?raw=true"
+                                    alt="product06">
+                                <h6 class="mb-4 h6 mb-md-0">PLATFORM 404</h6>
+                                <p class="md">NT$2,600</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="mb-48 mb-md-24">
+                            <a href="product.html">
+                                <img class="mb-12 mb-md-8"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true"
+                                    alt="product07">
+                                <h6 class="mb-4 h6 mb-md-0">PLATFORM 404</h6>
+                                <p class="md">NT$2,600</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="mb-48 mb-md-24">
+                            <a href="product.html">
+                                <img class="mb-12 mb-md-8"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-7.png?raw=true"
+                                    alt="product08">
+                                <h6 class="mb-4 h6 mb-md-0">PLATFORM 404</h6>
+                                <p class="md">NT$2,600</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="mb-48 mb-md-32">
+                            <a href="product.html">
+                                <img class="mb-12 mb-md-8"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-8.png?raw=true"
+                                    alt="product09">
+                                <h6 class="mb-4 h6 mb-md-0">PLATFORM 404</h6>
+                                <p class="md">NT$2,600</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 d-none d-md-block">
+                        <div class="mb-48 mb-md-32">
+                            <a href="product.html">
+                                <img class="mb-12 mb-md-8"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-9.png?raw=true"
+                                    alt="product10">
+                                <h6 class="mb-4 h6 mb-md-0">PLATFORM 404</h6>
+                                <p class="md">NT$2,600</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 下方按鈕 -->
+                <ul class="d-flex align-center justify-center">
+                    <li class="me-12 page-item">
+                        <button type="button" class="btn" disabled><i class="bi bi-chevron-left"></i>
+                        </button>
+                    </li>
+                    <li class="me-8 page-item">
+                        <button type="button" class="btn active-page-item">
+                            1
+                        </button>
+                    </li>
+                    <li class="me-8 page-item">
+                        <button type="button" class="btn">
+                            2
+                        </button>
+                    </li>
+                    <li class="me-8 page-item">
+                        <button type="button" class="btn">
+                            3
+                        </button>
+                    </li>
+                    <li class="me-8 page-item">
+                        ...
+                    </li>
+                    <li class="me-12 page-item">
+                        <button type="button" class="btn">
+                            10
+                        </button>
+                    </li>
+                    <li class="page-item">
+                        <button type="button" class="btn"><i class="bi bi-chevron-right"></i>
+                        </button>
+                    </li>
+                </ul>
+                <!-- <button type="button" class="btn">馬上註冊</button> -->
+            </div>
+        </div>
+    </main>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

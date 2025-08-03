@@ -1,0 +1,49 @@
+:root {
+    --primary-200: #E8FEC5;
+    --primary-300: #C0FA73;
+    --primary-400: #57A203;
+    --primary-100: #F5FEE7;
+    --neutral: #F8F9FA;
+    --neutral-white: #FFFFFF;
+    --neutral-100: #F8F9FA;
+    --neutral-300: #DEE2E6;
+    --neutral-600: #6C757D;
+    --neutral-900: #212529;
+}
+
+
+
+.btn {
+    border-radius: 4px; /*按鈕圓角*/
+    /*padding: 12px 24px; /*上下12 左右24*/
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer; /*游標改成手指圖示*/
+    border: none; /*無外框*/
+    background-color: transparent; /*透明*/
+    /* background-color: var(--neutral-900);
+    color: var(--neutral-white); */
+}
+
+
+.active {
+    color: var(--primary-400);
+}
+
+
+
+.page-item .btn {
+    padding: 8px 15px;
+    font-weight: 400;
+    border-radius: 0; /*無圓角*/
+}
+
+
+
+.margin-left-auto {
+  margin-left: auto;
+}
+
+
+

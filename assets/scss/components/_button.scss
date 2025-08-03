@@ -1,0 +1,65 @@
+:root {
+    --primary-200: #E8FEC5;
+    --primary-300: #C0FA73;
+    --primary-400: #57A203;
+    --primary-100: #F5FEE7;
+    --neutral: #F8F9FA;
+    --neutral-white: #FFFFFF;
+    --neutral-100: #F8F9FA;
+    --neutral-300: #DEE2E6;
+    --neutral-500: #ADB5BD;
+    --neutral-600: #6C757D;
+    --neutral-900: #212529;
+    --danger: #D74F4F;
+}
+
+
+.btn {
+    border-radius: 4px; /*按鈕圓角*/
+    padding: 12px 24px; /*上下12 左右24
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer; /*游標改成手指圖示*/
+    /* border: none; 無外框 */
+    background-color: transparent; /*透明*/
+    /* background-color: var(--neutral-900);
+    color: var(--neutral-white); */
+}
+
+.btn-product-size{
+    border: 1px solid var(--neutral-300);
+    width: 160px;
+}
+
+
+/* 滑鼠滑到也會變黑 */
+.btn-product-size.active,
+.btn-product-size:hover {
+    border: 1px solid var(--neutral-900);
+}
+
+/* 深色 */
+.btn-dark {
+ background-color: var(--neutral-900); 
+ color: var(--neutral-white);  
+}
+
+/* 淺色 */
+.btn-light {
+ background-color: var(--neutral-900); 
+}
+
+.btn-register {
+ padding: 12px 24px; /*上下12 左右24*/
+}
+
+.btn-heart {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}

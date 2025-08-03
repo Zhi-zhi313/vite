@@ -241,6 +241,18 @@ a {
     border-bottom: 1px solid var(--neutral-300);
 }
 
+.btn-product-size{
+    border: 1px solid var(--neutral-300);
+    width: 160px;
+}
+
+
+/* 滑鼠滑到也會變黑 */
+.btn-product-size.active,
+.btn-product-size:hover {
+    border: 1px solid var(--neutral-900);
+}
+
 /* 深色 */
 .btn-dark {
  background-color: var(--neutral-900); 
